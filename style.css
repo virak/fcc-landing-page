@@ -1,0 +1,82 @@
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+#header-img{
+  width: 200px;
+}
+
+#header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.description{
+  text-align: center;
+  font-style: italic;
+  color: #4D4D4D;
+}
+
+.nav-link{
+  display: inline;
+}
+
+.video-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  margin-bottom: 40px;
+}
+.video-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+h2{
+  color: #323D33;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+h1{
+  color: #323D33;
+}
+
+#featureSectionTracker{
+  padding-top: 60px;
+}
+
+.splitterHrSection{
+  width:100px; 
+  margin: auto;
+  height: 3px;
+  background: #F7D240;
+}
+
+.box {
+  display: flex;
+  margin-bottom: 30px;
+}
